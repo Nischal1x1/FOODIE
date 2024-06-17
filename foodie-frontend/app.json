@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "foodie",
+    "slug": "foodie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.falcx.foodie"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.falcx.foodie"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "com.falcx.foodie",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Nunito-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6ca3da1e-83aa-43dc-9727-dbd6c77057d7"
+      }
+    }
+  }
+}
